@@ -1,3 +1,4 @@
+# -*- coding: UTF-8 -*-
 import base64
 from cryptography.hazmat.primitives.asymmetric import padding
 from cryptography.hazmat.primitives import serialization, hashes
