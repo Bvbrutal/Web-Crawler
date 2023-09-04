@@ -191,7 +191,7 @@ from cryptography.hazmat.primitives.asymmetric import padding, rsa
 class SignatureHelper:
     def __init__(self):
         self.app_info = {
-            'appId': '846a15365f614921a5617cd1c2478129',
+            'appId': 'A500120190100001',
             'appKey': 'MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCq8e9qRpHJCnicpJQL26MMaxkVxSxuRDieHcl/6zCQBZxaicOzMGeArs+OJgDyVcuVpZmJopMRP4xYSycHRPbIuvozJQyC2xbntCnZDkim7N4gJvsuBYEMhHegWUi4EN4Shknko1vAtzQCTBrKuQcgUFiHpz0vAGktjO0RaN2tzwIDAQAB'
         }
         self.signature_info = self.app_info
@@ -212,7 +212,7 @@ class SignatureHelper:
         pz0vAGktjO0RaN2tzwIDAQAB
         -----END PUBLIC KEY-----
         """
-        with open("public.pem", "rb") as public_pem_file:
+        with open("../public.pem", "rb") as public_pem_file:
             print(public_pem_file.read())
             public_key = serialization.load_pem_public_key(
                 public_pem_file.read(),

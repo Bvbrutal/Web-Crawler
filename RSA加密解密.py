@@ -47,7 +47,7 @@ def md5_hash(input_string):
 def get_signature(nonce,timestmp):
     # Simulated public key (replace with your actual public key)
     # String to be encrypted 846a15365f614921a5617cd1c2478129
-    data_to_encrypt = '''appid=846a15365f614921a5617cd1c2478129&message={"cityId":"5000","stationId":"210"}'''+f"&nonce={nonce}&timestamp={timestmp}"
+    data_to_encrypt = '''appid=A500120190100001&message={"cityId":"5000","stationId":"210"}'''+f"&nonce={nonce}&timestamp={timestmp}"
     print(data_to_encrypt)
     data_to_encrypt=md5_hash(data_to_encrypt).upper()
     print(data_to_encrypt)
