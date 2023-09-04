@@ -24,6 +24,8 @@
 - 抖音、快手评论
 
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 许可证
+
+此项目在 MIT 许可下发布 - 有关详细信息，请参阅 [LICENSE](LICENSE) 文件。
